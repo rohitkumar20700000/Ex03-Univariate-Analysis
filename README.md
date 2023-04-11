@@ -47,12 +47,21 @@ sns.histplot(x="Row ID", data=df)
 ```
 
 #OUTPUT
-Dataset
+Dataset 
+![](https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis/blob/main/01.jpg)
 Dataset info
+![]()
 Null value
+![]()
 Data types
+![]()
 Value count
+![]()
 Boxplot
+![]()
 Count plot
+![]()
 Distribution plot
+![]()
 Histogram plot
+![]()
