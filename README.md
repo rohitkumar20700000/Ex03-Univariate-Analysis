@@ -87,3 +87,6 @@ Histogram plot
 
 ![](https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis/blob/main/10.jpg)
 
+#Result:
+Thus we have read the given data and performed the univariate analysis with different types of plots.
+
