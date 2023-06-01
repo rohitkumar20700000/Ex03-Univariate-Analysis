@@ -1,12 +1,18 @@
 # Ex03-Univariate-Analysis
 
-#AIM
+# Aim
 To read the given dataset and perform univariate analysis.
 
-#Explanation
+## DATE:
+
+GITHUB LINK:https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis
+
+COLAB LINK:https://colab.research.google.com/drive/1CP0qlKTqpDX9YrSCNdg6m00hatnJA_50#scrollTo=oLwFj8OGi0O-
+
+# Explanation
 Univariate analysis is basically the simplest form to analyze data. Uni means one and this means that the data has only one kind of variable. The major reason for univariate analysis is to use the data to describe. The analysis will take data, summarise it, and then find some pattern in the data.
 
-#Algorithm
+# Algorithm
 Step1 Read the given data.
 
 Step2 Get the information about the data.
@@ -19,8 +25,10 @@ Step5 Count the values from the data.
 
 Step6 Do plots like boxplots,countplot,distribution plot,histogram plot.
 
-#PROGRAM
+#program:
+
 ```
+
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -44,49 +52,60 @@ sns.countplot(x="Row ID", data=df)
 sns.distplot(df["Row ID"])
 
 sns.histplot(x="Row ID", data=df)
-```
 
-#OUTPUT
+```
+#Output:
+
 Dataset 
 
-![](https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis/blob/main/01.jpg)
+![](https://github.com/Hariharan5354/Ex03-Univariate-Analysis/blob/main/01.jpg)
+
 
 Dataset info
 
-![](https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis/blob/main/02.jpg)
+![](https://github.com/Hariharan5354/Ex03-Univariate-Analysis/blob/main/02.jpg)
+
 
 Dataset describe
 
-![](https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis/blob/main/03.jpg)
+![](https://github.com/Hariharan5354/Ex03-Univariate-Analysis/blob/main/03.jpg)
+
 
 Null value
 
-![](https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis/blob/main/04.jpg)
+![](https://github.com/Hariharan5354/Ex03-Univariate-Analysis/blob/main/04.jpg)
+
 
 Data types
 
-![](https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis/blob/main/05.jpg)
+![](https://github.com/Hariharan5354/Ex03-Univariate-Analysis/blob/main/05.jpg)
+
 
 Value count
 
-![](https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis/blob/main/06.jpg)
+![](https://github.com/Hariharan5354/Ex03-Univariate-Analysis/blob/main/06.jpg)
+
 
 Boxplot
 
-![](https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis/blob/main/07.jpg)
+![](https://github.com/Hariharan5354/Ex03-Univariate-Analysis/blob/main/07.jpg)
+
 
 Count plot
 
-![](https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis/blob/main/08.jpg)
+![](https://github.com/Hariharan5354/Ex03-Univariate-Analysis/blob/main/08.jpg)
+
 
 Distribution plot
 
-![](https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis/blob/main/09.jpg)
+![](https://github.com/Hariharan5354/Ex03-Univariate-Analysis/blob/main/09.jpg)
+
 
 Histogram plot
 
-![](https://github.com/rohitkumar20700000/Ex03-Univariate-Analysis/blob/main/10.jpg)
+![](https://github.com/Hariharan5354/Ex03-Univariate-Analysis/blob/main/10.jpg)
 
-#Result:
+
+
+# Result:
 Thus we have read the given data and performed the univariate analysis with different types of plots.
-
