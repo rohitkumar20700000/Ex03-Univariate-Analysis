@@ -24,9 +24,9 @@ Step5 Count the values from the data.
 Step6 Do plots like boxplots,countplot,distribution plot,histogram plot.
 # Program
 
-Developed by :M DINESH KUMAR  
+Developed by : Rohit kumar M
 
-Register number:212221220011
+Register number:212221220045
 
 import pandas as pd
 
